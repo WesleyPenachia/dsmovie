@@ -1,13 +1,9 @@
-a, a:hover {
-    text-decoration: none;
-    color: unset;
-  }
 
 header {
-   background-color: var(--color-primary); 
-   height: 60px;
-   display: flex;
-   align-items: center;
+    height: 60px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
 }
 
 .dsmovie-nav-content {
@@ -18,12 +14,12 @@ header {
 }
 
 .dsmovie-nav-content h1 {
+    font-size: 24px;
     margin: 0;
     font-weight: 700;
-    font-size: 24px;
 }
 
-.dsmovie-contact-container{
+.dsmovie-contact-container {
     display: flex;
     align-items: center;
 }
@@ -33,3 +29,7 @@ header {
     font-size: 12px;
 }
 
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+  }
